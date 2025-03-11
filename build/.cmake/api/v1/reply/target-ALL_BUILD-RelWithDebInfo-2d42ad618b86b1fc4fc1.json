@@ -17,19 +17,19 @@
 	"dependencies" : 
 	[
 		{
-			"id" : "SDL_uclibc::@fc7b397d5a055aba6d5e"
-		},
-		{
 			"id" : "SDL3-shared::@fc7b397d5a055aba6d5e"
-		},
-		{
-			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
 		},
 		{
 			"id" : "SDL3-static::@fc7b397d5a055aba6d5e"
 		},
 		{
 			"id" : "SDL3_test::@fc7b397d5a055aba6d5e"
+		},
+		{
+			"id" : "SDL_uclibc::@fc7b397d5a055aba6d5e"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "ALL_BUILD::@fc7b397d5a055aba6d5e",

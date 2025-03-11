@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "src/Debug/Arkanoid.exe"
+			"path" : "src/Release/Arkanoid.exe"
 		},
 		{
-			"path" : "src/Debug/Arkanoid.pdb"
+			"path" : "src/Release/Arkanoid.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -88,7 +88,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++latest -MDd"
+					"fragment" : "/DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++latest -MD"
 				}
 			],
 			"includes" : 
@@ -120,11 +120,11 @@
 	"dependencies" : 
 	[
 		{
-			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
-		},
-		{
 			"backtrace" : 2,
 			"id" : "SDL3-static::@fc7b397d5a055aba6d5e"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "Arkanoid::@145eef247bfb46b6828c",
@@ -133,16 +133,16 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "/DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd",
+				"fragment" : "/DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -MD",
 				"role" : "flags"
 			},
 			{
-				"fragment" : "/machine:x64 /debug /INCREMENTAL /subsystem:console",
+				"fragment" : "/machine:x64 /INCREMENTAL:NO /subsystem:console",
 				"role" : "flags"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "..\\_deps\\sdl-build\\Debug\\SDL3-static.lib",
+				"fragment" : "..\\_deps\\sdl-build\\Release\\SDL3-static.lib",
 				"role" : "libraries"
 			},
 			{
